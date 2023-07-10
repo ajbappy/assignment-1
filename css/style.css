@@ -95,6 +95,9 @@ section {
 /* hot deal section start  */
 .hot-deal {
   background: #fceef1;
+  height: 630px;
+  display: flex;
+  align-items: center;
 }
 
 .hot-deal-wrapper {
@@ -138,3 +141,65 @@ span {
   justify-content: space-between;
 }
 /* instagram section end  */
+
+/* newslater section start  */
+
+.newslater {
+  text-align: center;
+  background-image: url("../img/Rectangle 9.png");
+  height: 450px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newslater > p {
+  margin: 20px 0;
+}
+
+.email-box {
+}
+
+input[type="email"] {
+  width: 50%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  outline-color: #e55473;
+}
+
+input::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.submit-btn {
+  padding: 15px 20px;
+}
+/* newslater section end  */
+footer {
+  height: 450px;
+  background-color: #111010;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer > h2 {
+  color: #fff;
+}
+footer > p {
+  color: #fff;
+  margin: 10px 0;
+}
+
+.copyright {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
+}
