@@ -87,10 +87,78 @@ section {
   text-align: right;
 }
 /* banner section end  */
-/*  banner section end   */
 /*  our feature section start  */
+.feature {
+  text-align: center;
+}
+
+.feature > p {
+  margin: 20px 0 50px 0;
+}
+
+.feature-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-img-box {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+}
+
+.f-img-with-bg-1 {
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(167, 33, 98, 0.15);
+  height: 540px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.f-img-box > h3 {
+  text-decoration: underline !important;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.f-img-with-bg-2 {
+  border-radius: 300px 300px 0px 0px;
+  background-color: #d9eff1;
+  height: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-img-with-bg-3 {
+  border-radius: 300px 300px 0px 0px;
+  background-color: #e3ebdb;
+  height: 540px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
 /*  our feature section end   */
 /*  optional section start  */
+.delivery {
+  background-color: #f4f4f4;
+  padding: 100px 0;
+}
+.d-box-wrapper {
+  width: 1090px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.delivery-box {
+}
+.delivery-box > p {
+  color: #505050;
+  font-size: 24px;
+  margin-top: 20px;
+}
 /*  optional section end  */
 /* hot deal section start  */
 .hot-deal {
