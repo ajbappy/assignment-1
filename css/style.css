@@ -252,12 +252,12 @@ input::placeholder {
 /* newslater section end  */
 /* new section contact us start  */
 .contact-us {
-  /* background-color: #fceef1; */
+  background-color: #fceef1;
   height: 450px;
   margin-bottom: 0px;
   display: flex;
   justify-content: center;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 .contact {
   display: flex;
