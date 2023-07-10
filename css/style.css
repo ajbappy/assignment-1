@@ -250,6 +250,41 @@ input::placeholder {
   padding: 15px 20px;
 }
 /* newslater section end  */
+/* new section contact us start  */
+.contact-us {
+  /* background-color: #fceef1; */
+  height: 450px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-left {
+  width: 50%;
+}
+.contact-left p {
+  margin: 20px 0;
+}
+
+.socail-icon > i {
+  margin-right: 15px;
+  color: #e55473;
+  cursor: pointer;
+}
+.contact-right {
+  width: 40%;
+}
+
+.contact-right > h2 {
+  margin-bottom: 30px;
+}
+/* new section contact us end  */
+
 footer {
   height: 450px;
   background-color: #111010;
